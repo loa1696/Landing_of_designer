@@ -1,0 +1,19 @@
+.menu ul {
+    justify-content: space-between; /* выравнивание по оси распределяя свободное место между собой */
+    align-items: center;
+    display: flex;
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0  380px; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+
+}
+.menu ul li{
+
+}
+
+a {
+    display: block;
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    color: #b4b7b8;
+    font-size: 18px;
+}

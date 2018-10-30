@@ -1,0 +1,87 @@
+.header{
+    background: url('../../image/bg.jpg') center no-repeat;
+    background-size: cover;
+    margin-bottom: 120px;
+    position: relative;
+}
+/*делаем затемнение*/
+/*.header :before{*/
+/*content: "";*/
+/*position: absolute;*/
+/*left: 0;*/
+/*top: 0;*/
+/*width: 100vh;*/
+/*height: 100%;*/
+/*display: block; !*делаем элемент строчным*!*/
+/*background: linear-gradient(to left, rgba(0,80,131, 0.1), rgba(34,185,119, 0.1));*/
+/*z-index: -1;*/
+/*}*/
+.header_wrap{
+    position: relative;
+    height: 1084px;
+
+}
+.header_top{
+    display: flex;
+    justify-content: space-between; /* выравнивание по оси распределяя свободное место между собой */
+    align-items: center;
+    padding: 40px 40px;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    max-width: 1300px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /*padding: 0 148px;*/
+    box-sizing: border-box; /*xnj, поля включались в щирину*/
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 200px;
+
+}
+.title h2{
+    margin-top: 40px;
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 48px;
+
+}
+
+@media (max-width: 1280px) {
+    .title h1{
+       font-size: 150px;
+    }
+    .title h2{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .title h1{
+        line-height: 140px;
+    }
+    .title h2{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .title h1{
+        font-size: 120px;
+        line-height: 110px;
+    }
+    .title h2{
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+
+
+
+

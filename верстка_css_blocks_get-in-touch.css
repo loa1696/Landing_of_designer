@@ -1,0 +1,40 @@
+.get-in-touch{
+    margin: 170px 0 150px 150px;
+    display: flex;
+    /*flex-direction: row-reverse;*/
+
+}
+.get-in-touch__img{
+    flex-basis: 59%;
+    margin-left: 140px;
+}
+.get-in-touch__img img{
+    display: block;
+    max-width: 100% ;
+}
+
+.get-in-touch__text{
+    flex-basis: calc(100% - 59% - 140px);
+}
+.get-in-touch__text p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+    margin: 35px 0;
+
+}
+.get-in-touch__text .get-in-touch__title {
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 100px;
+
+}
+
+@media (max-width: 1280px) {
+
+}
+
+
+
